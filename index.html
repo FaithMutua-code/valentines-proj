@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flowers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bodyyy">
+    <img src="flowers.webp" alt="">
+    <h2>Would you be sweet enough to buy me flowers on Valentine's Day?</h2>
+ <button id="yes" onclick="saidYes()" >Yes</button>
+ <button id="no" onclick="saidNo()">No</button>
+ 
+</div>
+<script>
+  function saidYes(){
+    window.location.href = 'yes.html'; 
+    }
+
+    function saidNo() {
+      // Redirect to a new page (no.html) when "No" is clicked
+      window.location.href = 'no.html'; 
+    }
+</script>
+</body>
+</html>

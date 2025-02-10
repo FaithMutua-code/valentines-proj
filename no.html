@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No!</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(106, 106, 232);
+      margin: 0;
+    
+      text-align: center;
+    }
+
+    .content {
+      max-width: 700px;
+      padding: 20px;
+    }
+
+    h1 {
+      color:black; 
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #e53935; 
+    }
+
+    video {
+      margin-top: 20px;
+     width: 400px;
+     height: 400px;
+     background-color: black;
+      border-radius: 10px;
+      border: 1px solid #ff6347;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Maybe Next Time?</h1>
+    
+    <video controls>
+      <source src="hamster.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <br>
+    <button onclick="window.location.href='index.html'">Go Back</button>
+  </div>
+</body>
+</html>
